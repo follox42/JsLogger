@@ -11,10 +11,10 @@ export {
   isValidLevel,
   getEffectiveLevel,
   isLevelEnabled,
-} from './levels';
+} from './levels.js';
 
 export {
   LEVEL_CONFIGS,
   getLevelForEnvironment,
   parseLevel,
-} from './utils';
+} from './utils.js';

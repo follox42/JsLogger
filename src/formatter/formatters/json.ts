@@ -1,7 +1,7 @@
 // ==========================================
 // src/formatter/formatters/json.ts - JSON FORMATTER
 // ==========================================
-import { Formatter, LogRecord } from '../';
+import { Formatter, LogRecord } from '../index.js';
 
 /**
  * JSON formatter configuration

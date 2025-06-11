@@ -2,8 +2,8 @@
 // src/index.ts - JSLOGGER MAIN API
 // ==========================================
 
-import { registry, globalConfig, Logger, type BasicConfig } from './core';
-import { Level } from './levels';
+import { registry, globalConfig, Logger, type BasicConfig } from './core/index.js';
+import { Level } from './levels/index.js';
 
 // ========== MAIN API FUNCTIONS ==========
 
@@ -79,20 +79,20 @@ export function getLoggerInfo(): Array<{
 // ========== EXPORTS ==========
 
 // Core exports
-export { Logger } from './core';
-export type { BasicConfig, LogRecord } from './core';
+export { Logger } from './core/index.js';
+export type { BasicConfig, LogRecord } from './core/index.js';
 
 // Level exports
-export { Level } from './levels';
+export { Level } from './levels/index.js';
 export type { 
   getLevelName, 
   getLevelByName, 
   parseLevel,
   getLevelForEnvironment 
-} from './levels';
+} from './levels/index.js';
 
 // Formatter exports
-export type { Formatter, FormatterConfig } from './formatter';
+export type { Formatter, FormatterConfig } from './formatter/index.js';
 export { 
   formatters,
   basicFormatter,
@@ -103,7 +103,7 @@ export {
   createJsonFormatter,
   createColorizedFormatter,
   createTemplateFormatter,
-} from './formatter';
+} from './formatter/index.js';
 
 // Formatter imports
 import { 
@@ -116,10 +116,10 @@ import {
   createJsonFormatter,
   createColorizedFormatter,
   createTemplateFormatter,
-} from './formatter';
+} from './formatter/index.js';
 
 // Handler exports  
-export type { Handler, HandlerConfig } from './handler';
+export type { Handler, HandlerConfig } from './handler/index.js';
 export {
   handlers,
   createJsonHandler,
@@ -128,7 +128,7 @@ export {
   createBrowserStorageHandler,
   createStreamHandler,
   createConsoleHandler,
-} from './handler';
+} from './handler/index.js';
 
 // Handler imports  
 import {
@@ -139,10 +139,10 @@ import {
   createBrowserStorageHandler,
   createStreamHandler,
   createConsoleHandler,
-} from './handler';
+} from './handler/index.js';
 
 // Import handler type for the addHandler function
-import type { Handler } from './handler';
+import type { Handler } from './handler/index.js';
 
 // ========== CONVENIENCE EXPORTS ==========
 
@@ -267,7 +267,7 @@ export const setFormatter = (loggerOrName: Logger | string, formatter: Formatter
 };
 
 // Import Formatter type for the setFormatter function  
-import type { Formatter } from './formatter';
+import type { Formatter } from './formatter/index.js';
 
 // ========== DEFAULT CONFIGURATION ==========
 

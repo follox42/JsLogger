@@ -2,9 +2,9 @@
 // src/core/logger.ts - LOGGER CLASS
 // ==========================================
 
-import { createLogRecord, type LogRecord, registry, globalConfig } from './';
-import { Level, getLevelName, getEffectiveLevel, isLevelEnabled } from '../levels';
-import { Handler } from '../handler';
+import { createLogRecord, type LogRecord, registry, globalConfig } from './index.js';
+import { Level, getLevelName, getEffectiveLevel, isLevelEnabled } from '../levels/index.js';
+import { Handler } from '../handler/index.js';
 
 /**
  * Logger class matching Python's Logger behavior

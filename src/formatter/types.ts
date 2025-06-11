@@ -2,7 +2,7 @@
 // src/formatters/types.ts - FORMATTER TYPES
 // ==========================================
 
-import type { LogRecord } from '../core/logrecord';
+import type { LogRecord } from '../core/logrecord.js';
 
 /**
  * Formatter function type

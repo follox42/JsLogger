@@ -1,7 +1,7 @@
 // ==========================================
 // src/formatter/formatters/detailed.ts - DETAILED FORMATTER
 // ==========================================
-import { Formatter, LogRecord, FormatterConfig } from '../';
+import { Formatter, LogRecord, FormatterConfig } from '../index.js';
 
 /**
  * Format timestamp according to specified format

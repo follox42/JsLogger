@@ -2,10 +2,10 @@
 // src/core/config.ts - GLOBAL CONFIGURATION
 // ==========================================
 
-import type { Handler } from '../handler/types';
-import { Level } from '../levels';
-import { basicFormatter, Formatter } from '../formatter';
-import { createConsoleHandler } from '../handler';
+import type { Handler } from '../handler/types.js';
+import { Level } from '../levels/index.js';
+import { basicFormatter, Formatter } from '../formatter/index.js';
+import { createConsoleHandler } from '../handler/index.js';
 
 /**
  * Global logging configuration

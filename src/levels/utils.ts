@@ -1,7 +1,7 @@
 // ==========================================
 // src/levels/utils.ts - LEVEL UTILITIES
 // ==========================================
-import { Level, isValidLevel, getLevelByName } from './levels';
+import { Level, isValidLevel, getLevelByName } from './index.js';
 
 /**
  * Level configuration for different environments

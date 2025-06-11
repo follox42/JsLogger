@@ -1,45 +1,45 @@
 // ==========================================
 // src/formatter/formatters/index.ts - FORMATTERS PROFILS EXPORTS
 // ==========================================
-import { basicFormatter } from './basic';
-import { simpleFormatter } from './basic';
-import { messageOnlyFormatter } from './basic';
-import { detailedFormatter } from './detailed';
-import { colorizedFormatter } from './colorized';
-import { jsonFormatter } from './json';
+import { basicFormatter } from './basic.js';
+import { simpleFormatter } from './basic.js';
+import { messageOnlyFormatter } from './basic.js';
+import { detailedFormatter } from './detailed.js';
+import { colorizedFormatter } from './colorized.js';
+import { jsonFormatter } from './json.js';
 
 // Basic formatters
 export {
   basicFormatter,
   simpleFormatter,
   messageOnlyFormatter,
-} from './basic';
+} from './basic.js';
 
 // Detailed formatters
 export {
   detailedFormatter,
   createDetailedFormatter,
-} from './detailed';
+} from './detailed.js';
 
 // JSON formatters
 export {
   createJsonFormatter,
   jsonFormatter,
-} from './json';
+} from './json.js';
 
 // Colorized formatters
 export {
   COLORS,
   createColorizedFormatter,
   colorizedFormatter,
-} from './colorized';
+} from './colorized.js';
 
 // Custom utilities
 export {
   createTemplateFormatter,
   combineFormatters,
   createConditionalFormatter,
-} from './custom';
+} from './custom.js';
 
 // Default formatters collection
 export const formatters = {

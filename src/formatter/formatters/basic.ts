@@ -1,7 +1,7 @@
 // ==========================================
 // src/formatter/formatters/basic.ts - BASIC FORMATTER
 // ==========================================
-import { Formatter } from '../';
+import { Formatter } from '../index.js';
 
 /**
  * Basic formatter matching Python's default format

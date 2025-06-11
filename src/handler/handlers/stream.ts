@@ -1,7 +1,7 @@
 // ==========================================
 // src/handlers/stream.ts - STREAM HANDLER
 // ==========================================
-import { Handler, HandlerConfig, LogRecord, basicFormatter, isLevelEnabled } from '../';
+import { Handler, HandlerConfig, LogRecord, basicFormatter, isLevelEnabled } from '../index.js';
 
 /**
  * Stream handler configuration

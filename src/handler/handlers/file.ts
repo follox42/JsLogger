@@ -1,7 +1,7 @@
 // ==========================================
 // src/handlers/file.ts - FILE HANDLER
 // ==========================================
-import { Handler, HandlerConfig, LogRecord, basicFormatter, Level, isLevelEnabled } from '../';
+import { Handler, HandlerConfig, LogRecord, basicFormatter, Level, isLevelEnabled } from '../index.js';
 
 /**
  * File handler configuration

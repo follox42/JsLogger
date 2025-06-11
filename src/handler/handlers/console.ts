@@ -1,7 +1,7 @@
 // ==========================================
 // src/handler/handlers/console.ts - CONSOLE HANDLER
 // ==========================================
-import { Handler, HandlerConfig, LogRecord, basicFormatter, Level, isLevelEnabled } from '../';
+import { Handler, HandlerConfig, LogRecord, basicFormatter, Level, isLevelEnabled } from '../index.js';
 
 /**
  * Console handler configuration

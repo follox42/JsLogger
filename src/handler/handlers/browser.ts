@@ -1,7 +1,7 @@
 // ==========================================
 // src/handler/handlers/browser.ts - BROWSER STORAGE HANDLER
 // ==========================================
-import { Handler, HandlerConfig, LogRecord, basicFormatter, isLevelEnabled } from '../';
+import { Handler, HandlerConfig, LogRecord, basicFormatter, isLevelEnabled } from '../index.js';
 
 /**
  * Browser storage handler configuration

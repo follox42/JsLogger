@@ -1,7 +1,7 @@
 // ==========================================
 // src/handlers/json.ts - JSON HANDLER
 // ==========================================
-import { Handler, HandlerConfig, LogRecord, isLevelEnabled } from '../';
+import { Handler, HandlerConfig, LogRecord, isLevelEnabled } from '../index.js';
 
 /**
  * JSON handler configuration

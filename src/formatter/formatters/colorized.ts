@@ -1,7 +1,7 @@
 // ==========================================
 // src/formatter/formatters/colorized.ts - COLORIZED FORMATTER
 // ==========================================
-import { Formatter, LogRecord } from '../';
+import { Formatter, LogRecord } from '../index.js';
 
 /**
  * ANSI color codes

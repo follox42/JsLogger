@@ -3,43 +3,43 @@
 // ==========================================
 
 // Internal dependencies (re-exported for convenience)
-export { LogRecord } from '../core';
-export { Level, isLevelEnabled } from '../levels';
-export { basicFormatter } from '../formatter';
+export { LogRecord } from '../core/index.js';
+export { Level, isLevelEnabled } from '../levels/index.js';
+export { basicFormatter } from '../formatter/index.js';
 
 // ========== BASE TYPES IMPORTS ==========
-import type { Handler, HandlerConfig } from './types';
+import type { Handler, HandlerConfig } from './types.js';
 
 // ========== BASE TYPES EXPORTS ==========
-export type { Handler, HandlerConfig } from './types';
+export type { Handler, HandlerConfig } from './types.js';
 
 // ========== HANDLER CONFIGS ==========
-export type { ConsoleHandlerConfig } from './handlers';
-export type { FileHandlerConfig } from './handlers';
-export type { MemoryHandlerConfig } from './handlers';
-export type { BrowserStorageConfig } from './handlers';
-export type { StreamHandlerConfig } from './handlers';
-export type { JsonHandlerConfig } from './handlers';
+export type { ConsoleHandlerConfig } from './handlers/index.js';
+export type { FileHandlerConfig } from './handlers/index.js';
+export type { MemoryHandlerConfig } from './handlers/index.js';
+export type { BrowserStorageConfig } from './handlers/index.js';
+export type { StreamHandlerConfig } from './handlers/index.js';
+export type { JsonHandlerConfig } from './handlers/index.js';
 
 // ========== HANDLER APIS ==========
-export type { MemoryHandlerAPI } from './handlers';
-export type { BrowserStorageAPI } from './handlers';
+export type { MemoryHandlerAPI } from './handlers/index.js';
+export type { BrowserStorageAPI } from './handlers/index.js';
 
 // ========== FACTORY FUNCTIONS IMPORTS ==========
-import { createConsoleHandler } from './handlers';
-import { createFileHandler } from './handlers';
-import { createMemoryHandler } from './handlers';
-import { createBrowserStorageHandler } from './handlers';
-import { createStreamHandler } from './handlers';
-import { createJsonHandler } from './handlers';
+import { createConsoleHandler } from './handlers/index.js';
+import { createFileHandler } from './handlers/index.js';
+import { createMemoryHandler } from './handlers/index.js';
+import { createBrowserStorageHandler } from './handlers/index.js';
+import { createStreamHandler } from './handlers/index.js';
+import { createJsonHandler } from './handlers/index.js';
 
 // ========== FACTORY FUNCTIONS EXPORTS ==========
-export { createConsoleHandler } from './handlers';
-export { createFileHandler } from './handlers';
-export { createMemoryHandler } from './handlers';
-export { createBrowserStorageHandler } from './handlers';
-export { createStreamHandler } from './handlers';
-export { createJsonHandler } from './handlers';
+export { createConsoleHandler } from './handlers/index.js';
+export { createFileHandler } from './handlers/index.js';
+export { createMemoryHandler } from './handlers/index.js';
+export { createBrowserStorageHandler } from './handlers/index.js';
+export { createStreamHandler } from './handlers/index.js';
+export { createJsonHandler } from './handlers/index.js';
 
 
 // ========== HANDLERS COLLECTION ==========

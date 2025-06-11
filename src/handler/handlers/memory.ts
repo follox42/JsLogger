@@ -2,7 +2,7 @@
 // src/handlers/memory.ts - MEMORY HANDLER
 // ==========================================
 
-import { Handler, HandlerConfig, LogRecord, basicFormatter, isLevelEnabled } from '../';
+import { Handler, HandlerConfig, LogRecord, basicFormatter, isLevelEnabled } from '../index.js';
 
 /**
  * Memory handler specific configuration

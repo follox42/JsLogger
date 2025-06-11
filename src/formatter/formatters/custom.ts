@@ -1,7 +1,7 @@
 // ==========================================
 // src/formatter/formatters/custom.ts - CUSTOM UTILITIES
 // ==========================================
-import { Formatter, LogRecord } from '../';
+import { Formatter, LogRecord } from '../index.js';
 
 /**
  * Template formatter using string templates

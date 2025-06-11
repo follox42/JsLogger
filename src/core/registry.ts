@@ -2,7 +2,7 @@
 // src/core/registry.ts - LOGGER REGISTRY
 // ==========================================
 
-import type { Logger } from './logger';
+import { Logger } from './logger.js';
 
 /**
  * Global logger registry (like Python's logging module)
@@ -94,7 +94,6 @@ class LoggerRegistry {
    */
   protected getLoggerClass(): any {
     // Import Logger class dynamically to avoid circular dependency
-    const { Logger } = require('./logger');
     return Logger;
   }
 }

@@ -3,34 +3,34 @@
 // ==========================================
 export type { 
   ConsoleHandlerConfig
-} from './console'; 
+} from './console.js'; 
 
 export type { 
   FileHandlerConfig
-} from './file';
+} from './file.js';
 
 export type { 
   StreamHandlerConfig,
-} from './stream';
+} from './stream.js';
 
 export type {
   JsonHandlerConfig
-} from './json';
+} from './json.js';
 
 export type {
   MemoryHandlerConfig,
   MemoryHandlerAPI
-} from './memory';
+} from './memory.js';
 
 export type {
   BrowserStorageConfig,
   BrowserStorageAPI
-} from './browser';
+} from './browser.js';
 
 // Factory functions
-export { createConsoleHandler } from './console';
-export { createFileHandler } from './file';
-export { createMemoryHandler } from './memory';
-export { createBrowserStorageHandler } from './browser';
-export { createStreamHandler } from './stream';
-export { createJsonHandler } from './json';
+export { createConsoleHandler } from './console.js';
+export { createFileHandler } from './file.js';
+export { createMemoryHandler } from './memory.js';
+export { createBrowserStorageHandler } from './browser.js';
+export { createStreamHandler } from './stream.js';
+export { createJsonHandler } from './json.js';

@@ -2,8 +2,8 @@
 // src/handler/types.ts - HANDLER TYPES
 // ==========================================
 
-import type { LogRecord } from '../core/logrecord';
-import type { Formatter } from '../formatter';
+import type { LogRecord } from '../core/logrecord.js';
+import type { Formatter } from '../formatter/index.js';
 
 /**
  * Handler is ALWAYS a simple function
