@@ -1,0 +1,29 @@
+{
+  "name": "jslogger",
+  "version": "1.0.0",
+  "description": "Python‑style logging for TypeScript – familiar API, typed ergonomics.",
+  "main": "rollup.config.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/follox42/JsLogger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/follox42/JsLogger/issues"
+  },
+  "homepage": "https://github.com/follox42/JsLogger#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
