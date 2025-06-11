@@ -15,7 +15,7 @@ import {
   createMemoryHandler,
   createJsonHandler,
   type Formatter
-} from './src';
+} from '.';
 
 console.log('🚀 JSLogger Demo\n');
 

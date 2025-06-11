@@ -1,29 +1,39 @@
 {
-  "name": "jslogger",
-  "version": "1.0.0",
+  "name": "@follox/jslogger",
+  "version": "0.1.0",
   "description": "Python‑style logging for TypeScript – familiar API, typed ergonomics.",
-  "main": "rollup.config.js",
-  "directories": {
-    "example": "example"
+  "type": "module",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "require": "./lib/index.js",
+      "types": "./lib/index.d.ts"
+    }
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "engines": {
+    "node": ">=20"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p .",
+    "prepack": "npm run build",
+    "dev": "ts-node --esm src/index.ts",
+    "test": "node --test",
+    "lint": "eslint . --ext .ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/follox42/JsLogger.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/follox42/JsLogger/issues"
-  },
-  "homepage": "https://github.com/follox42/JsLogger#readme",
+  "keywords": [
+    "logging",
+    "typescript"
+  ],
+  "repository": "git+https://github.com/follox42/jslogger.git",
+  "author": "Follox follox.f@shosai.fr",
+  "license": "MIT",
   "devDependencies": {
-    "@types/node": "^24.0.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "vitest": "^3.2.3"
   }
 }
