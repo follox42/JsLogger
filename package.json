@@ -1,6 +1,6 @@
 {
   "name": "@follox42/jslogger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Python‑style logging for TypeScript – familiar API, typed ergonomics.",
   "type": "module",
   "main": "./lib/index.js",
